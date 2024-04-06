@@ -78,7 +78,7 @@ div#layout-menu {
 	height: calc(100vh - 70px - 26px);
 	width: 200px;
 	overflow: auto;
-	position: sticky;
+	position: fixed; /* sticky */
 	top: 70px;
 }
 
