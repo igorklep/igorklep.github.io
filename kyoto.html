@@ -108,19 +108,6 @@ document.write(
 <p><a href="files/lect2.pdf" target="_blank">Board pictures of Day 2</a></p>
 </div></div>
 <dl>
-<dt><b>Homework Chapter I</b></dt>
-<dd><p>
-Pick one of the two problems (#2 is easier).</p></dd>
-</dl>
-<ol>
-<li><p>Let \(f=f^*\in {\mathbb R}\langle x_1,\ldots, x_d\rangle\) be a noncommutative polynomial of degree \(\leq 2\delta\). Consider the set of all palindromic words appearing in \(f\), and stack all their right-hand side chips of length \(\leq\delta\) into a vector \(V\). 
-(For example, \(x_1x_3x_1x_3x_1\) is palindromic, and if \(\delta=3\), we would extract \(x_1,x_3x_1,x_1x_3x_1\).)
-Prove that \(f\) is a sum of squares if and only if there is a positive semidefinite matrix \(G\) with \(f=V^*GV\).</p>
-</li>
-<li><p>Show that the block matrix \(\begin{pmatrix} A &amp; B \\ B^* &amp; 0\end{pmatrix}\) is positive semidefinite if and only if \(A\) is positive semidefinite and \(B=0\).</p>
-</li>
-</ol>
-<dl>
 <dt><i>Additional reading</i> to go beyond the material covered in class</dt>
 <dd><p></p></dd>
 </dl>
@@ -146,6 +133,84 @@ with probability for head \(\frac sd\).</p>
 If you obtain <i>at least \(t\) times tail</i>, you pay me \(s\) Euros.
 (Consequently, if you obtain exactly \(s\) times head, then you pay \(d\) Euros in total.)</p>
 <p>Which coin should you choose to minimize the expected loss?</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p>Day 4 explained the Webster-Winkler duality between compact matrix convex sets and operator systems, polars and spectrahedrops, LMI or spectrahedral inclusion, we discussed the Convex Positivstellensatz, the matrix cube problem of Nemirovskii and its solution with the Simultaneous Dilation Theory. </p>
+<p>We didn't talk about extreme points or computing matrix convex hulls via spectrahedrops.</p>
+<p><a href="files/lect4.pdf" target="_blank">Board pictures of Day 4</a></p>
+</div></div>
+<dl>
+<dt><i>Additional reading</i> to go beyond the material covered in class</dt>
+<dd><p></p></dd>
+</dl>
+<ul>
+<li><p>Kriel, Tom-Lukas: An introduction to matrix convex sets and free spectrahedra. Complex Anal. Oper. Theory 13, No. 7, 3251-3335 (2019)</p>
+</li>
+<li><p>Davidson, Kenneth & Kennedy, Matthew: Noncommutative Choquet theory. Preprint (2019). <a href="http://arxiv.org/abs/1905.08436" target="_blank">arXiv:1905.08436</a></p>
+</li>
+</ul>
+<h3>IV. Noncommutative Function Theory</h3>
+<div class="infoblock">
+<div class="blockcontent">
+<p>Day 5 talked about noncommutative functions and sets, proved that continuous implies analytic, introduced noncommutative rational functions and their linear realizations. Finally, we saw the Grothendieck-Ax theorem, the Jacobian conjecture and their noncommutative counterparts.</p>
+<p><a href="files/lect5.pdf" target="_blank">Board pictures of Day 5</a></p>
+</div></div>
+<dl>
+<dt><i>Additional reading</i> to go beyond the material covered in class</dt>
+<dd><p></p></dd>
+</dl>
+<ul>
+<li><p>Agler, Jim; McCarthy, John Edward; Young, Nicholas John:
+Operator analysis. Hilbert space methods in complex analysis,
+Cambridge Tracts in Mathematics 219 (2020)</p>
+</li>
+</ul>
+<h3>Homework </h3>
+<p><i>Deadline</i>: 31 July 2024</p>
+<p>Pick one of the first two problems (#2 is easier), 
+do problem #3, 
+pick 
+one of the problems #4, #5 (#4 is slightly harder), 
+and one of the problems #6, #7.</p>
+<ol>
+<li><p>Let \(f=f^*\in {\mathbb R}\langle x_1,\ldots, x_d\rangle\) be a noncommutative polynomial of degree \(\leq 2\delta\). Consider the set of all palindromic words appearing in \(f\), and stack all their right-hand side chips of length \(\leq\delta\) into a vector \(V\). 
+(For example, \(x_1x_3x_1x_3x_1\) is palindromic, and if \(\delta=3\), we would extract \(x_1,x_3x_1,x_1x_3x_1\).)
+Prove that \(f\) is a sum of squares if and only if there is a positive semidefinite matrix \(G\) with \(f=V^*GV\).</p>
+</li>
+<li><p>Show that the block matrix \(\begin{bmatrix} A &amp; B \\ B^* &amp; 0\end{bmatrix}\) is positive semidefinite if and only if \(A\) is positive semidefinite and \(B=0\).</p>
+</li>
+<li><p>Consider the linear pencil \(L(x,y)=\begin{bmatrix} 1&amp;x&amp;y \\ x&amp; 1 &amp;0\\ y &amp; 0 &amp; 1\end{bmatrix}\).
+Show that the associated free spectrahedron \(\mathcal D_L\) is equal to
+\(\mathcal D_L=\bigcup_{n\in\mathbb N}\{ (X,Y)\in M_n(\mathbb R)^2_{\rm sa} | 1-X^2-Y^2 \succeq 0 \}.\)<br /> 
+<i>Hint:</i> If \(A\) is invertible, then 
+\( \begin{bmatrix} A &amp; B\\ C &amp; D\end{bmatrix}=
+\begin{bmatrix} A &amp; B\\ C &amp; D\end{bmatrix}=
+\begin{bmatrix} I &amp; 0 \\ CA^{-1} &amp; I \end{bmatrix} 
+\begin{bmatrix} A &amp; 0 \\ 0 &amp; D-CA^{-1}B \end{bmatrix}
+\begin{bmatrix} I &amp; A^{-1}B \\ 0 &amp; I \end{bmatrix}\).</p>
+</li>
+<li><p>Consider the noncommutative version of the unit \(4\)-disk (sometimes also called the TV screen) \(\mathcal D_p\) for \(p=1-x^4-y^4\).
+Show that \(\mathcal D_p(1)\) is convex, but \(\mathcal D_p(2)\) is not.</p>
+</li>
+<li><p>Let us call a noncommutative function f <i>nc convex</i> if for all 
+self-adjoint matrices \(A,B\) (of all sizes), \(f\Big(\frac 12(A+B)\Big) \preceq \frac12 \big(f(A)+f(B)\big)\).
+Show that \(x^2\) is nc convex, but \(x^4\) is not.</p>
+</li>
+<li><p>Consider the noncommutative rational function \(r(x,y):=(xy-yx)^{-1}\). Find a linear realization for \(r\). 
+(<i>Beware</i>, it will not be monic.)
+What is the smallest size realization you can find?</p>
+</li>
+<li><p>Let \(\mathscr U\) be a noncommutative set and \(f\) a noncommutative function defined on \(\mathscr U\).</p>
+<ol>
+<li><p>Show that the similarity closure \(\hat {\mathscr U}\) of \(\mathscr U\), i.e., the smallest noncommutative set that contains \(\mathscr U\) and is closed under conjugation, is equal to
+\( \hat {\mathscr U} = \{ P^{-1} (X_1 \oplus \cdots \oplus X_r) P \mid r\in \mathbb N,\, X_i \in \mathscr U,\, P \text{ invertible}\}.\)</p>
+</li>
+<li><p>Prove that \(f\) extends to a noncommutative function on \(\hat{ \mathscr U}\).</p>
+</li>
+</ol>
+
+</li>
+</ol>
 </div> <!-- <div id="layout-content-container"> -->
 </div> <!--- <div id="layout"> --->
 </div> <!--- <div id="main-container"> --->
