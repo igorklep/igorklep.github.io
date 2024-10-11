@@ -24,8 +24,21 @@ window.MathJax = {
 <link rel="icon" href="snoopy.ico"/>
 <!-- generate imejl -->
 <script type="text/javascript">
-function generate_address( vorname, hostname ) {
+function generateaddress( vorname, hostname ) {
 var domain = "-lj.si";
+var atsign = "&#64;";
+var addr = vorname +  atsign + hostname + domain;
+document.write(
+"<" + "a" + " "  + "href=" + "mail" + "to:" + addr + ">" +
+addr +
+"<\/a>");
+}
+</script>
+<!-- End generate imejl -->
+<!-- generate imejl -->
+<script type="text/javascript">
+function generateaddressKP( vorname, hostname ) {
+var domain = "upr.si";
 var atsign = "&#64;";
 var addr = vorname +  atsign + hostname + domain;
 document.write(

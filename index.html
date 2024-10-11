@@ -24,8 +24,21 @@ window.MathJax = {
 <link rel="icon" href="snoopy.ico"/>
 <!-- generate imejl -->
 <script type="text/javascript">
-function generate_address( vorname, hostname ) {
+function generateaddress( vorname, hostname ) {
 var domain = "-lj.si";
+var atsign = "&#64;";
+var addr = vorname +  atsign + hostname + domain;
+document.write(
+"<" + "a" + " "  + "href=" + "mail" + "to:" + addr + ">" +
+addr +
+"<\/a>");
+}
+</script>
+<!-- End generate imejl -->
+<!-- generate imejl -->
+<script type="text/javascript">
+function generateaddressKP( vorname, hostname ) {
+var domain = "upr.si";
 var atsign = "&#64;";
 var addr = vorname +  atsign + hostname + domain;
 document.write(
@@ -97,27 +110,61 @@ document.write(
 </div>
 <div id="text-img-container"><div id="img-container">
 <img src="temporary-thisIsHereUntilIgorFindsYetAbetterPic2.jpeg" alt="this is a temporary pic until Igor finds a better one" width="225px" height="257px" /></div>
-<div id="text-container"><p><b>Igor Klep</b><br />
-University of Ljubljana<br />
-Faculty of Mathematics and Physics<br />
-Jadranska 21<br />
-1000 Ljubljana, Slovenia</p>
-<p><b>Office</b>   P26<br />
-<b>Phone</b>   +386 1 476 6500 <br />
-<b>Fax</b>  +386 1 2517 281</p>
-<p>✉️&nbsp; 
+<div id="text-container"><p><b>Igor Klep</b><br /></p>
+<p><div style="display: flex; justify-content: space-between;">
+<div>University of Ljubljana</div>
+<div>University of Primorska</div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<div>Faculty of Mathematics and Physics</div>
+<div>FAMNIT</div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<div>Jadranska 21</div>
+<div>Glagoljaška 8</div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<div>1000 Ljubljana, Slovenia</div>
+<div>6000 Koper, Slovenia</div>
+</div>
+</p>
+<p><div style="display: flex; justify-content: space-between;">
+<div><b>Office</b>   P26</div>
+<div><b>Office</b>   Galeb II/5</div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<div><b>Phone</b>   +386 1 476 6500</div>
+<div><b>Phone</b>   +386 5 611 7570</div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<div>1000 Ljubljana, Slovenia</div>
+<div>6000 Koper, Slovenia</div>
+</div>
+</p>
+<p><div style="display: flex; justify-content: space-between;">
+<div>✉️&nbsp; 
 <script type="text/javascript">
-generate_address( "igor.klep", "fmf.uni" )
+generateaddress( "igor.klep", "fmf.uni" )
 </script>
 <noscript>
 Email address protected by JavaScript. Activate JavaScript to see the email.
-</noscript>
-<br />
+</noscript></div>
+<div>✉️&nbsp; 
+<script type="text/javascript">
+generateaddressKP( "igor.klep", "famnit." )
+</script>
+<noscript>
+Email address protected by JavaScript. Activate JavaScript to see the email.
+</noscript></div>
+</div>
+
 <a href="iFMFpgpKey.asc" target="_blank">🔑 Public PGP Key</a><br />
 <a href="https://scholar.google.com/citations?user=fa6GkcgAAAAJ&amp;hl=en" target="_blank">🎓 Google Scholar</a></p>
 </div></div>
 <h2>About me</h2>
-<p>Professor of mathematics at the University of Ljubljana, Slovenia.<br /> Previously at The University of Auckland, New Zealand.</p>
+<p>Professor of mathematics at the University of Ljubljana and 
+University of Primorska, Koper, Slovenia.<br /> 
+Previously at The University of Auckland, New Zealand.</p>
 <h2>Research interests</h2>
 <p>Real algebraic geometry, noncommutative algebra, functional analysis, convex optimization, applications</p>
 </div> <!-- <div id="layout-content-container"> -->
