@@ -150,3 +150,12 @@ function linkNavascues() {
 var url4='https://www.iqoqi-vienna.at/people/staff/miguel-navascues'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Miguel Navascues</a>");
 }
+function linkImrich() {
+var url4='https://pure.unileoben.ac.at/en/persons/wilfried-imrich'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Wilfried Imrich</a>");
+}
+function linkSmertnig() {
+var url4='https://math.smertnig.at/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Daniel Smertnig</a>");
+}
+
