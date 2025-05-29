@@ -158,4 +158,12 @@ function linkSmertnig() {
 var url4='https://math.smertnig.at/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Daniel Smertnig</a>");
 }
+function linkRenou() {
+var url4='https://marcolivierrenou.com/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Marc-Olivier Renou</a>");
+}
+function linkXuX() {
+var url4='https://sites.google.com/view/xiangling-xu/home'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Xiangling Xu</a>");
+}
 
