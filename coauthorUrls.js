@@ -166,4 +166,20 @@ function linkXuX() {
 var url4='https://sites.google.com/view/xiangling-xu/home'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Xiangling Xu</a>");
 }
+function linkPaddock() {
+var url4='https://www.connorpaddock.page/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Connor Paddock</a>");
+}
+function linkSchmidt() {
+var url4='https://qi.rub.de/schmidt'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Simon Schmidt</a>");
+}
+function linkTendick() {
+var url4='https://scholar.google.com/citations?user=oRsE2swAAAAJ'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Lucas Tendick</a>");
+}
+function linkZhaoY() {
+var url4='https://yumingz-quantum.github.io/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Yuming Zhao</a>");
+}
 
