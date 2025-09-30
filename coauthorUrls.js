@@ -163,7 +163,7 @@ var url4='https://marcolivierrenou.com/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Marc-Olivier Renou</a>");
 }
 function linkXuX() {
-var url4='https://sites.google.com/view/xiangling-xu/home'
+var url4='https://xiangling-xu.github.io/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Xiangling Xu</a>");
 }
 function linkPaddock() {
@@ -182,4 +182,15 @@ function linkZhaoY() {
 var url4='https://yumingz-quantum.github.io/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Yuming Zhao</a>");
 }
-
+function linkBaroni() {
+var url4='https://qi.lip6.fr/fr/people/matilde-baroni/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Matilde Baroni</a>");
+}
+function linkLeichtle() {
+var url4='https://scholar.google.com/citations?user=avkSkqQAAAAJ&hl=de'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Dominik Leichtle</a>");
+}
+function linkSupic() {
+var url4='https://quantumsupic.github.io/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Ivan Šupić</a>");
+}
