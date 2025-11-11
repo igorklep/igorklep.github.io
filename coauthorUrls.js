@@ -194,3 +194,7 @@ function linkSupic() {
 var url4='https://quantumsupic.github.io/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Ivan Šupić</a>");
 }
+function linkJindal() {
+var url4='https://sites.google.com/view/abhayjindal/home'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Abhay Jindal</a>");
+}
