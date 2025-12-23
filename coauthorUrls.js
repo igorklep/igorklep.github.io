@@ -206,4 +206,12 @@ function linkMetzlaff() {
 var url4='https://tobiasmetzlaff.com//'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Tobias Metzlaff</a>");
 }
+function linkBluhm() {
+var url4='https://andreasbluhm.eu/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Andreas Bluhm</a>");
+}
+function linkNechita() {
+var url4='https://ion.nechita.net/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Ion Nechita</a>");
+}
 
