@@ -214,4 +214,8 @@ function linkNechita() {
 var url4='https://ion.nechita.net/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Ion Nechita</a>");
 }
+function linkSchoetz() {
+var url4='https://www.mathematik.uni-wuerzburg.de/en/mathematicalphysics/team/matthias-schoetz-dr/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Matthias Schötz</a>");
+}
 
