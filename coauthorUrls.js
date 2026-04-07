@@ -40,7 +40,7 @@ document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Markus Schweigh
 }
 function linkCafuta() {
 var url4= 'https://fe.uni-lj.si/imenik-zaposlenih/kristijan-cafuta/'
-document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Kristijan Cafuta</a>");Š
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Kristijan Cafuta</a>");
 }
 function linkCimpric() {
 var url4= 'https://www.fmf.uni-lj.si/%7Ecimpric/'
