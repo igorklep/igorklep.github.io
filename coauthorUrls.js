@@ -222,3 +222,7 @@ function linkLeijenhorst() {
 var url4='https://nanleij.github.io/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Nando Leijenhorst</a>");
 }
+function linkFawziO() {
+var url4='https://perso.ens-lyon.fr/omar.fawzi/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Omar Fawzi</a>");
+}
