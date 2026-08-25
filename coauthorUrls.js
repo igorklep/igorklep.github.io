@@ -226,3 +226,7 @@ function linkFawziO() {
 var url4='https://perso.ens-lyon.fr/omar.fawzi/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Omar Fawzi</a>");
 }
+function linkDritschel() {
+var url4='https://www.mas.ncl.ac.uk/~nmad1/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Michael A. Dritschel</a>");
+}
