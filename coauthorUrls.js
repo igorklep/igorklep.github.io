@@ -230,3 +230,11 @@ function linkDritschel() {
 var url4='https://www.mas.ncl.ac.uk/~nmad1/'
 document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Michael A. Dritschel</a>");
 }
+function linkGribling() {
+var url4='https://sites.google.com/site/sandergribling/'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Sander Gribling</a>");
+}
+function linkKumar() {
+var url4='https://sites.google.com/view/welcometomyhomepage/i'
+document.write("<a  href=" + url4 + " target=&ldquo;blank&rdquo;>Poornendu Kumar</a>");
+}
